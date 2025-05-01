@@ -17,3 +17,17 @@ Thumbs.db
 .vscode/
 
 *.mem.*
+
+# Unity editor/IDE files
+*.csproj
+*.sln
+*.user
+*.unityproj
+*.pidb
+*.booproj
+
+# Plugin or auto-generated
+*.nativewebsocket.csproj
+
+# Unity tutorial stuff (optional)
+unity-client/Assets/TutorialInfo/
