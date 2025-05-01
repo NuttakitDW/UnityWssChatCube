@@ -1,0 +1,10 @@
+[package]
+name = "wss-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+actix-web-actors = "4"
+openssl = "0.10"  # For TLS support
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
