@@ -82,7 +82,7 @@ async fn main() -> std::io::Result<()> {
         .expect("Failed to set certificate chain");
 
     HttpServer::new(|| App::new().service(websocket_handler))
-        .bind_openssl("0.0.0.0:8080", builder)?
+        .bind("0.0.0.0:8080")?
         .run()
         .await
 }
