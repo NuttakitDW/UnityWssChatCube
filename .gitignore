@@ -1,0 +1,17 @@
+# Rust
+/target/
+
+# Unity
+unity-client/Library/
+unity-client/Temp/
+unity-client/Obj/
+unity-client/Build/
+unity-client/Logs/
+unity-client/UserSettings/
+unity-client/.vs/
+unity-client/.idea/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
